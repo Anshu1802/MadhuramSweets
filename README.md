@@ -1,17 +1,12 @@
-ecommerce
-=========
+Hello this is my final year E-COMMERCE project with documentation and download steps are given below
+1. Clone or download the project from Github and save it on your local machine.
+2. Open the XAMPP installation directory and navigate to the "htdocs" folder (usually located at "C:\xampp\htdocs"). 
+3. Copy the project folder and paste it inside the "htdocs" folder.
+4. Launch XAMPP Control Panel and start the Apache and MySQL modules.
+5. Open your web browser and go to "http://localhost/phpmyadmin/" to access the MySQL dashboard.
+6. In the project folder, look for a file with a ".sql" extension (e.g., "my_project_db.sql").
+7. Go to the "Import" tab in the MySQL dashboard, select the SQL file you found in step 6, and click "Go" to import the database.
+8. If the import is successful, you will see a prompt confirming that the database was imported successfully.
+9. Open your web browser and go to "http://localhost/<folder-name>" to start the project, where "<folder-name>" is the name of the project folder you copied to the "htdocs" directory.
 
-**Note: This project is no longer being maintained.**
-
-A PHP e-commerce web application.
-
-1. To set this web application, make sure PHP and PHPMyAdmin is installed on your server.
-2. Next open PHPMyAdmin, create a database and import the bolt.sql file. This will generate tables in your database on your server.
-3. Upload all files on your server except for bolt.sql or bolt-new-phpmyadmin.sql! I have provided two database files for an old and new version of PHPMyAdmin respectively.
-4. The admin user which I have made has an email id sjobs@apple.com / admin@admin.com and the password is steve. (Please confirm this in db or create one manually.
-5. Open config.php file and add the details of your PHPMyAdmin's id and password to access the database. Now re-upload this file to the server.
-6. Once this is done, go to the url of your website and it should be up and running.
-
-Enjoy!
-
-Currently only COD (Cash on Delivery), has been implemented. Working on email delivery on purchase and payment gateway. Stay tuned for the updates.
+recently email and online payment is not integrated soon it will have the feature in upcoming days
